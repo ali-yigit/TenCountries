@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container {
+  background-image: url("../src/assets/dunya.jpg");
+  background-repeat : no-repeat;
+  min-width: 500px;
+}
+
+.country-card {
+  height: 400px;
+  max-width: 280px;
+  min-width: 230px;
+}
+.country-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
